@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pokemon</title>
+      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  </head>
+  <body>
+    <h1>Batalla pokemon</h1>
+    <h2>Crea un pokemon</h2>
+    <input placeholder="Nombre pokemon" type="text" id="nombrePokemon">
+    <input placeholder="Color pokemon" type="text" id="colorPokemon">
+    <input placeholder="Puntos de Ataque" type="text" id="puntosAtaque">
+
+    <section id="listaPokemons">
+      <select id="lista1"></select>
+      <select id="lista2"></select>
+    </section>
+    <button type="button" id="crearPokemon" onclick="crearPokemon();mostrarPokemon();">Crear</button>
+    <button type="button" id="pelear" onclick="pelearPokemons();">Pelear</button>
+    <section id="batallaPokemon">
+    </section>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
